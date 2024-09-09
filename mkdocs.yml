@@ -20,28 +20,32 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo_fav.png
   features:
-    - navigation.instant # ускорение загрузки (SPA)
+    - navigation.instant # ускорение загрузки (SPA) ссылок
+    - navigation.instant.prefetch # ускорение предварительной выборки
+    - navigation.instant.progress # индикатор прогресса
     - navigation.tracking # динамический URL страницы 
     - navigation.tabs # перенос названий документов в горизонтальное меню
     - navigation.tabs.sticky # горизонтальное меню не скрывается при прокрутке
     - navigation.indexes # главные страницы разделов не отображаются в меню
     - navigation.top # вкл. кнопку возврата наверх
+    # - navigation.sections # разделы навигации для мобильных
+    # - navigation.expand # Ррасширенная навигация
+    - navigation.path # путь навигации
+    - navigation.prune # видимые элементы навигации
+    - toc.follow # отслеживание якоря для оглавления
+    # - toc.integrate # интеграция навигации для оглавления
   palette: 
     - scheme: default
-      primary: deep purple
-      accent: amber
       toggle:
         icon: material/weather-night
         name: Ночь
     - scheme: slate
-      primary: light blue
-      accent: green
       toggle:
         icon: material/weather-sunny
         name: День
 
-#extra_css:
-  #- stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search:
