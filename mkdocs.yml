@@ -36,12 +36,12 @@ theme:
     # - toc.integrate # интеграция навигации для оглавления
   palette: 
     - scheme: default
-      accent: light blue
+      accent: orange
       toggle:
         icon: material/weather-night
         name: Ночь
     - scheme: slate
-      accent: orange
+      accent: light blue
       toggle:
         icon: material/weather-sunny
         name: День
