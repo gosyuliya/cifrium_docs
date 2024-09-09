@@ -17,11 +17,8 @@ nav:
 theme:
   logo: assets/logo.png
   favicon: assets/logo_fav.png
-
   name: material
-
   language: ru
-
   plugins:
   - search:
       lang: 
