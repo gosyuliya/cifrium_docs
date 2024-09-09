@@ -15,10 +15,10 @@ nav:
     - kg/index.md
 
 theme:
-  logo: assets/logo.png
-  favicon: assets/logo_fav.png
   name: material
   language: ru
+  logo: assets/logo.png
+  favicon: assets/logo_fav.png
   features:
     - navigation.instant # ускорение загрузки (SPA)
     - navigation.tracking # динамический URL страницы 
