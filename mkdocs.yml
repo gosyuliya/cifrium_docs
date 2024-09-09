@@ -28,13 +28,20 @@ theme:
     - navigation.top # вкл. кнопку возврата наверх
   palette: 
     - scheme: default
+      primary: deep purple
+      accent: amber
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-night
         name: Ночь
     - scheme: slate
+      primary: light blue
+      accent: green
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: День
+
+#extra_css:
+  #- stylesheets/extra.css
 
 plugins:
   - search:
