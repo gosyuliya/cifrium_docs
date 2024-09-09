@@ -19,12 +19,6 @@ theme:
   favicon: assets/logo_fav.png
   name: material
   language: ru
-  plugins:
-  - search:
-      lang: 
-        - en
-        - ru
-
   features:
     - navigation.instant # ускорение загрузки (SPA)
     - navigation.tracking # динамический URL страницы 
@@ -32,7 +26,6 @@ theme:
     - navigation.tabs.sticky # горизонтальное меню не скрывается при прокрутке
     - navigation.indexes # главные страницы разделов не отображаются в меню
     - navigation.top # вкл. кнопку возврата наверх
-
   palette: 
     - scheme: default
       toggle:
@@ -42,3 +35,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: День
+
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
