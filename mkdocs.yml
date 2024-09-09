@@ -1,0 +1,47 @@
+site_name: Документация для работы с платформой
+
+nav:
+  - Ученик:
+    - ig/index.md
+    - Работа с курсами:
+      - ig/projects.md
+      - ig/testing.md
+    - ig/olympiads.md
+  - Учитель:
+    - ag/index.md
+    - ag/teacher_courses.md
+    - ag/teacher_project.md
+  - Координатор:
+    - kg/index.md
+
+theme:
+  logo: assets/logo.png
+  favicon: assets/logo_fav.png
+
+  name: material
+
+  language: ru
+
+  plugins:
+  - search:
+      lang: 
+        - en
+        - ru
+
+  features:
+    - navigation.instant # ускорение загрузки (SPA)
+    - navigation.tracking # динамический URL страницы 
+    - navigation.tabs # перенос названий документов в горизонтальное меню
+    - navigation.tabs.sticky # горизонтальное меню не скрывается при прокрутке
+    - navigation.indexes # главные страницы разделов не отображаются в меню
+    - navigation.top # вкл. кнопку возврата наверх
+
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Ночь
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: День
