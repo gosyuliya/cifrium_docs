@@ -41,7 +41,7 @@ theme:
         icon: material/weather-night
         name: Ночь
     - scheme: slate
-      accent: light blue
+      accent: deep purple
       toggle:
         icon: material/weather-sunny
         name: День
@@ -54,3 +54,6 @@ plugins:
       lang: 
         - en
         - ru
+  - mkpdfs:
+      company: ООО «Цифровое образование»
+      author: Господарик
